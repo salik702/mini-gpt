@@ -1,6 +1,13 @@
+import sys
 import torch
 import torch.nn as nn
 from torch.nn import functional as F
+
+if sys.platform == "win32" and hasattr(sys.stdout, "reconfigure"):
+    try:
+        getattr(sys.stdout, "reconfigure")(encoding="utf-8")
+    except Exception:
+        pass
 
 # hyperparameters
 batch_size = 32 # how many independent sequences will we process in parallel?
@@ -95,28 +102,29 @@ class BigramLanguageModel(nn.Module):
             idx = torch.cat((idx, idx_next), dim=1) # (B, T+1)
         return idx
 
-model = BigramLanguageModel(vocab_size)
-m = model.to(device)
+if __name__ == "__main__":
+    model = BigramLanguageModel(vocab_size)
+    m = model.to(device)
 
-# create a PyTorch optimizer
-optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
+    # create a PyTorch optimizer
+    optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
 
-for iter in range(max_iters):
+    for iter in range(max_iters):
 
-    # every once in a while evaluate the loss on train and val sets
-    if iter % eval_interval == 0:
-        losses = estimate_loss()
-        print(f"step {iter}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}")
+        # every once in a while evaluate the loss on train and val sets
+        if iter % eval_interval == 0:
+            losses = estimate_loss()
+            print(f"step {iter}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}")
 
-    # sample a batch of data
-    xb, yb = get_batch('train')
+        # sample a batch of data
+        xb, yb = get_batch('train')
 
-    # evaluate the loss
-    logits, loss = model(xb, yb)
-    optimizer.zero_grad(set_to_none=True)
-    loss.backward()
-    optimizer.step()
+        # evaluate the loss
+        logits, loss = model(xb, yb)
+        optimizer.zero_grad(set_to_none=True)
+        loss.backward()
+        optimizer.step()
 
-# generate from the model
-context = torch.zeros((1, 1), dtype=torch.long, device=device)
-print(decode(m.generate(context, max_new_tokens=500)[0].tolist()))
+    # generate from the model
+    context = torch.zeros((1, 1), dtype=torch.long, device=device)
+    print(decode(m.generate(context, max_new_tokens=500)[0].tolist()))
