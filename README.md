@@ -13,7 +13,7 @@
 [![CUDA](https://img.shields.io/badge/CUDA-Accelerated-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://developer.nvidia.com/cuda-zone)
 [![Parameters](https://img.shields.io/badge/Parameters-10.79M-blueviolet?style=for-the-badge&logo=codeforces&logoColor=white)](#-model-specifications)
 [![Architecture](https://img.shields.io/badge/Architecture-Decoder--Only%20Transformer-818CF8?style=for-the-badge&logo=deepnote&logoColor=white)](#-model-architecture)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=open-source-initiative&logoColor=white)](LICENSE)
+[![Open Source](https://img.shields.io/badge/Open_Source-Community-green?style=for-the-badge&logo=open-source-initiative&logoColor=white)](#-license)
 
 <br/>
 
@@ -308,7 +308,7 @@ Contributions are welcomed! Whether optimizing attention mechanisms, experimenti
 
 ## 📄 License
 
-This repository is distributed under the **MIT License**. See [`LICENSE`](LICENSE) for further details.
+This project is open-source and provided "as-is" for educational, research, and experimental deep learning purposes.
 
 <div align="center">
 
