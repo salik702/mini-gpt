@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=MINI%20GPT&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=From-Scratch%20Transformer%20%26%20Interactive%20ChatGPT%20Engine&descAlignY=55&descSize=18&descColor=93c5fd" width="100%"/>
-
+<!-- Typing SVG -->
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=24&duration=2600&pause=700&color=818CF8&center=true&vCenter=true&repeat=true&width=800&height=60&lines=From-Scratch+Transformer+Architecture;BPE+Subword+Tokenization;Hardware-Accelerated+FlashAttention;ChatML+Supervised+Fine-Tuning;Interactive+Terminal+ChatGPT+Assistant" alt="Typing SVG" />
 </a>
 
 <br/>
 
+<!-- Badges -->
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![FlashAttention](https://img.shields.io/badge/FlashAttention-Accelerated-76B900?style=for-the-badge&logo=nvidia&logoColor=white)](https://pytorch.org/docs/stable/generated/torch.nn.functional.scaled_dot_product_attention.html)
@@ -22,20 +22,19 @@
 <br/>
 
 <a href="#-model-architecture">
-  <img src="https://img.shields.io/badge/🏗️-Explore%20Architecture-818CF8?style=for-the-badge&logo=mermaid&logoColor=white" />
+  <img src="https://img.shields.io/badge/🏗️-Explore%20Architecture-818CF8?style=for-the-badge&logo=mermaid&logoColor=white" alt="Explore Architecture" />
 </a>
 <a href="#-interactive-chatgpt-mode">
-  <img src="https://img.shields.io/badge/💬-Interactive%20Chat-009688?style=for-the-badge&logo=googlechat&logoColor=white" />
+  <img src="https://img.shields.io/badge/💬-Interactive%20Chat-009688?style=for-the-badge&logo=googlechat&logoColor=white" alt="Interactive Chat" />
 </a>
 <a href="#-installation-and-setup">
-  <img src="https://img.shields.io/badge/⚙️-Installation%20Guide-4285F4?style=for-the-badge&logo=ubuntu&logoColor=white" />
+  <img src="https://img.shields.io/badge/⚙️-Installation%20Guide-4285F4?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Installation Guide" />
 </a>
 <a href="#-supervised-fine-tuning-sft--loss-masking">
-  <img src="https://img.shields.io/badge/🚀-SFT%20%26%20Loss%20Masking-F55036?style=for-the-badge&logo=rocket&logoColor=white" />
+  <img src="https://img.shields.io/badge/🚀-SFT%20%26%20Loss%20Masking-F55036?style=for-the-badge&logo=rocket&logoColor=white" alt="SFT and Loss Masking" />
 </a>
 
 </div>
-
 ---
 
 ## 📌 Overview
