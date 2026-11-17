@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=MINI%20GPT&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=From-Scratch%20Transformer%20%26%20Interactive%20ChatGPT%20Engine&descAlignY=55&descSize=18&descColor=93c5fd" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2600&pause=700&color=818CF8&center=true&vCenter=true&repeat=true&width=800&height=60&lines=From-Scratch+Transformer+Architecture;BPE+Subword+Tokenization+(tiktoken);Hardware-Accelerated+FlashAttention;ChatML+Supervised+Fine-Tuning;Interactive+Terminal+ChatGPT+Assistant" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=24&duration=2600&pause=700&color=818CF8&center=true&vCenter=true&repeat=true&width=800&height=60&lines=From-Scratch+Transformer+Architecture;BPE+Subword+Tokenization;Hardware-Accelerated+FlashAttention;ChatML+Supervised+Fine-Tuning;Interactive+Terminal+ChatGPT+Assistant" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -341,7 +341,7 @@ This project is open-source and provided "as-is" for educational, research, and 
 <br/>
 
 <a href="https://salikahmad.vercel.app/">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=16&duration=4000&pause=1000&color=818CF8&center=true&vCenter=true&width=700&lines=AI%2FML+Engineer;Deep+Learning+Practitioner;Transformer+Architect;Copyright+©+2026+Salik+Ahmad." alt="Footer Typing" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=16&duration=4000&pause=1000&color=818CF8&center=true&vCenter=true&width=700&lines=AI%2FML+Engineer;Deep+Learning+Practitioner;Transformer+Architect;Copyright+%C2%A9+2026+Salik+Ahmad." alt="Footer Typing" />
 </a>
 
 <br/>
